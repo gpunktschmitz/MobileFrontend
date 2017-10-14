@@ -4,8 +4,6 @@ quick and dirty hack of the MediaWiki extension MobileFrontend to show the sideb
 
 no coding conventions followed .. as stated it was done **quick** and **dirty**.
 
-requires the Vector skin (VectorTemplate class) to be on the server/available.
-
 tested with MediaWiki 1.29.1 and the following settings in `LocalSettings.php`
 ```php
 wfLoadExtension( 'MobileFrontend' );

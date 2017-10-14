@@ -585,10 +585,10 @@ class SkinMinerva extends SkinTemplate implements ICustomizableSkin {
 	protected function getDiscoveryTools() {
 		$config = $this->getMFConfig();
 		$menu = new MenuBuilder();
-
-		$VectorTemplateForSidebar = $this->setupTemplate( 'VectorTemplate', 'skins' );
-		$VectorTemplateForSidebar->set( 'sidebar', $this->buildSidebar() );
-		foreach($VectorTemplateForSidebar->data['sidebar'] as $key=>$value) {
+		
+		$sidebarArray = $this->buildSidebar();
+		
+		foreach($sidebarArray as $key=>$value) {
 			foreach($value as $sidebarElement){
 				$menu->insert($sidebarElement['id'])->addComponent($sidebarElement['text'], $sidebarElement['href'], MobileUI::iconClass( 'mf-page', 'before' ));
 			}
