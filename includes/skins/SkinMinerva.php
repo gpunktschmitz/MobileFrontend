@@ -854,7 +854,8 @@ class SkinMinerva extends SkinTemplate implements ICustomizableSkin {
 	 */
 	protected function prepareMenuButton( BaseTemplate $tpl ) {
 		// menu button
-		$url = SpecialPage::getTitleFor( 'MobileMenu' )->getLocalUrl();
+		//$url = SpecialPage::getTitleFor( 'MobileMenu' )->getLocalUrl();
+		$url = '#';
 		$tpl->set( 'menuButton',
 			Html::element( 'a', [
 				'title' => $this->msg( 'mobile-frontend-main-menu-button-tooltip' ),
