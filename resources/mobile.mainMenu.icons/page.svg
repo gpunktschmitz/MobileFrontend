@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 48 48"
+   width="48"
+   height="48"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="page.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1654"
+     inkscape:window-height="870"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="24.40678"
+     inkscape:cy="48.40678"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     transform="matrix(0.35234301,0,0,0.35484654,8.858455,2.7641949)"
+     style="fill:none;fill-rule:evenodd"
+     id="Page-1">
+    <g
+       style="fill:#000000"
+       id="youdonthaveuserpage">
+      <g
+         id="userpage">
+        <path
+           inkscape:connector-curvature="0"
+           d="M 86.156,18.4 69.682,2.166 C 68.92,1.416 68.067,0.554 66.372,0.554 l -60.764,0 C 2.61,0.554 0.174,3.03 0.174,6.07 l 0,106.275 c 0,3.022 2.436,5.485 5.434,5.485 l 76.73,0 c 3.006,0 5.453,-2.463 5.453,-5.485 l 0,-90.395 c -0.01,-1.715 -0.83,-2.758 -1.633,-3.55 z m -2.256,2.03 -16.014,0 0,-15.78 16.014,15.78 z m -1.56,94.38 -76.733,0 c -1.32,0 -2.398,-1.107 -2.398,-2.465 l 0,-106.265 c 0,-1.347 1.097,-2.484 2.397,-2.484 l 59.24,0 0,18.354 a 1.51,1.51 0 0 0 1.514,1.512 l 18.383,0 0,88.883 c 0,1.358 -1.077,2.464 -2.405,2.464 z"
+           id="Fill-1" />
+      </g>
+    </g>
+  </g>
+</svg>

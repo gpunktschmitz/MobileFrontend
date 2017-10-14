@@ -586,6 +586,15 @@ class SkinMinerva extends SkinTemplate implements ICustomizableSkin {
 		$config = $this->getMFConfig();
 		$menu = new MenuBuilder();
 
+		$VectorTemplateForSidebar = $this->setupTemplate( 'VectorTemplate', 'skins' );
+		$VectorTemplateForSidebar->set( 'sidebar', $this->buildSidebar() );
+		foreach($VectorTemplateForSidebar->data['sidebar'] as $key=>$value) {
+			foreach($value as $sidebarElement){
+				$menu->insert($sidebarElement['id'])->addComponent($sidebarElement['text'], $sidebarElement['href'], MobileUI::iconClass( 'mf-page', 'before' ));
+			}
+		}
+		
+		/*
 		// Home link
 		$menu->insert( 'home' )
 			->addComponent(
@@ -594,21 +603,22 @@ class SkinMinerva extends SkinTemplate implements ICustomizableSkin {
 				MobileUI::iconClass( 'mf-home', 'before' ),
 				[ 'data-event-name' => 'home' ]
 			);
-
+		
 		// Random link
 		$menu->insert( 'random' )
-			->addComponent(
+		->addComponent(
 				$this->msg( 'mobile-frontend-random-button' )->escaped(),
 				SpecialPage::getTitleFor( 'Randompage',
-					MWNamespace::getCanonicalName( $config->get( 'MFContentNamespace' ) ) )->getLocalUrl() .
-						'#/random',
+						MWNamespace::getCanonicalName( $config->get( 'MFContentNamespace' ) ) )->getLocalUrl() .
+				'#/random',
 				MobileUI::iconClass( 'mf-random', 'before' ),
 				[
-					'id' => 'randomButton',
-					'data-event-name' => 'random',
+						'id' => 'randomButton',
+						'data-event-name' => 'random',
 				]
 			);
-
+		*/
+		
 		// Nearby link (if supported)
 		if (
 			$config->get( 'MFNearby' ) &&
